@@ -1,0 +1,17 @@
+{
+  "name": "d3-sample-2",
+  "version": "1.0.0",
+  "description": "Sample app demonstrating use of D3.js library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "miriamz",
+  "license": "ISC",
+  "dependencies": {
+    "d3": "^3.5.17",
+    "d3-relationshipgraph": "^1.5.0",
+    "express": "^4.13.4",
+    "jsdom": "^9.2.1"
+  }
+}

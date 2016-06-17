@@ -1,0 +1,50 @@
+body{
+    font-family: Arial, sans-serif;
+    font-size:10px;
+}
+.name {
+
+    padding:10px;
+}
+
+.side-1{
+    opacity:0;
+}
+
+.side0 {
+
+    font-size:14px;
+    font-weight:bold;
+}
+
+.side1 {
+    font-size: 10px;
+    font-weight:normal;
+}
+
+.side2 {
+
+    font-size:8px;
+    font-weight:normal;
+}
+/*fix text display*/
+text.value{
+    font-size:12px;
+    font-weight:bold;
+    padding:10px;}
+h3 {
+    font-size:14px;
+}
+ul {
+    font-family: Arial, sans-serif;font-size:12px;
+}
+
+#d3{
+    padding-top:20px;
+}
+#applications {
+    padding: 20px;
+}
+#chartTitle {
+    text-align:center;
+}

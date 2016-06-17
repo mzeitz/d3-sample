@@ -1,0 +1,39 @@
+body{font-family: Arial, sans-serif;font-size:10px;}
+.axis path,.axis line {
+    fill: none;
+    stroke:#b6b6b6;
+    shape-rendering: crispEdges;}
+/*.tick line{fill:none;stroke:none;}*/
+.tick text{
+    fill:#999;
+}
+g.sector.active{
+    cursor:pointer;
+}
+text.label{
+    font-size:12px;
+    font-weight:bold;
+    cursor:pointer;}
+.name {
+
+    padding:10px;
+}
+text.value{
+    font-size:10px;
+    font-weight:bold;
+    padding:10px;}
+h3 {
+    font-size:14px;
+}
+ul {
+    font-family: Arial, sans-serif;font-size:12px;
+}
+#d3{
+    padding-top:20px;
+}
+#applications {
+    padding: 20px;
+}
+#chartTitle {
+    text-align:center;
+}
