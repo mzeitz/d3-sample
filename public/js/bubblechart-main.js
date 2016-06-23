@@ -42,8 +42,6 @@ window.onload = function() {
         createChart(data);
     };
 
-
-
     httpRequest.onreadystatechange = function() {
         if (httpRequest.readyState === XMLHttpRequest.DONE && httpRequest.status === 200)
         {

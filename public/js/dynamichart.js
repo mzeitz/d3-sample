@@ -27,6 +27,7 @@ window.onload = function() {
         .y(function (d) {
             return yScale(d.y);
         });
+    
     function generateData(line, points) {
         return d3.range(line).map(function () {
             return d3.range(points).map(function (item, index) {
@@ -36,8 +37,6 @@ window.onload = function() {
     }
 
     function createGraph() {
-
-
         var data = generateData(3, 8);
 
         var yMin = data.reduce(function (pv, cv) {
